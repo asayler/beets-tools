@@ -6,7 +6,7 @@ import sys
 import re
 import mimetypes
 
-_RE_END = 'a-zA-Z0-9_\-,!.\''
+_RE_END = 'a-zA-Z0-9_\-,!.&\''
 _RE_START = _RE_END + ' '
 _RE_FIELD = "[{}]*[{}]".format(_RE_START, _RE_END)
 
